@@ -1,0 +1,24 @@
+
+/*media queries*/ 
+
+
+@media (max-width: 400px ) { 
+    .background video{
+        height: 800px;
+        width: 100%;
+        margin-top: -7rem;
+    }
+    } 
+    @media (max-width: 400px ) { 
+        .container-fluid__title h2{
+            font-size: 1.4rem;
+        }
+        } 
+        @media (max-width: 400px ) { 
+            #home{
+                height: 568px;
+                margin-top: -10rem;
+                
+                
+            }
+            } 

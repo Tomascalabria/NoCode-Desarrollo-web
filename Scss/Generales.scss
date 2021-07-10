@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    transition: .5s; }
+  
+  html {
+    font-size: 12px;
+    font-family: "JetBrains Mono", monospace;
+    color: white; }
+  
+  section {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    min-height: 100vh; }
+  
+  .centrado {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 90px; }
+
+footer{
+    height: auto;
+    width: 100%;
+    background: black;
+    margin-top: -1rem;
+
+}
+  
+  #container > * {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    position: relative; }
+  

@@ -1,0 +1,57 @@
+  
+  
+  /*HEADER*/
+  header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100; }
+ 
+    .header__area span {
+      font-size: 0.7em;
+      color: lightgray; }
+    
+    footer{
+      height: auto;
+      width: 100%;
+      background: black;
+      margin-top: -1rem;
+    }
+  header h1 {
+    color: lime;
+    margin-left: 20px;
+    z-index: 50;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 600; }
+    
+  header  a {
+    text-decoration: none;
+    color: transparent; }
+    
+  header h1 a:hover {
+    text-decoration: none;
+    color: white; }
+    header a:hover{
+      text-decoration: none;
+    }
+
+    
+  .header__2 {
+    z-index: 101;
+    background-color: #070707;
+    margin-bottom: 230px; }
+
+P{
+    font-size: 1.2rem;
+    font-family: "jetBrains Mono", monospace;
+    content: '';
+ 
+}
+.ncs{
+  font-weight: bolder;
+  font-size: 1.35rem;
+}
+        

@@ -1,0 +1,126 @@
+
+   /* flecha */ 
+   
+   
+   .center-con {
+    display: block;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    flex-wrap: wrap;
+    margin: 1rem;
+    margin-top: 0rem;
+    
+    background-color: transparent;
+}
+.center-con p{
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+    font-family: var(--fuente_primaria);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0rem;
+    margin-left: 0px;
+
+}
+.center-con p:hover{
+    color: wheat;
+
+}
+
+.round:hover{
+    border: 3px solid wheat;
+    
+}
+.round {
+    position: relative;
+    border: 3px solid wheat;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-top: 0;
+    background: black;
+    margin-top: 36.7rem;
+    
+    background-color: transparent;
+}
+.round p{
+    margin-top: -4rem;
+}
+.round a{
+  text-decoration: none;
+  color: wheat;
+  
+}
+.round p:hover{
+    color: whitesmoke;
+}
+span:hover{
+    z-index: 999;
+    height: 3px;
+    margin:1px;
+    width: 25px;
+    background: brown;
+    transition: 0.4s ease;
+
+}
+span {
+    z-index: 999;
+    height: 3px;
+    margin:1px;
+    width: 25px;
+    background: wheat;
+    transition: 0.4s ease;  
+}
+
+span:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 35%;
+}
+
+span:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 35%;
+}
+
+span:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 54%;
+}
+
+span:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 54%;
+}
+
+.round:hover span:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.round:hover span:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+.round:hover span:nth-child(3) {
+    transform: rotate(225deg);
+}
+
+.round:hover span:nth-child(4) {
+    transform: rotate(-225deg);
+}
+
