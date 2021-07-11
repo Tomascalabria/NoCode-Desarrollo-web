@@ -317,3 +317,19 @@ ul.social-network li {
 
 .social-network a {
   background-color: #F9F9F9; }
+
+/*media queries*/
+@media (max-width: 400px) {
+  .background video {
+    height: 800px;
+    width: 100%;
+    margin-top: -7rem; } }
+
+@media (max-width: 400px) {
+  .container-fluid__title h2 {
+    font-size: 1.4rem; } }
+
+@media (max-width: 400px) {
+  #home {
+    height: 568px;
+    margin-top: -10rem; } }

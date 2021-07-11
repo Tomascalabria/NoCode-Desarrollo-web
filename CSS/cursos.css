@@ -14,10 +14,11 @@
     font-size: 12px;
     font-family: "JetBrains Mono", monospace;
     color: black;
-  
     background: black;
 scroll-behavior: smooth; }
-    
+    body{
+        background: black;
+    }
   
   section {
     background-color: #070707;
@@ -39,12 +40,7 @@ scroll-behavior: smooth; }
     min-height: 100vh;
     position: relative; }
   
-  .header__area {
-    position: fixed;
-    top: 21px;
-    left: 230px;
-    font-family: "JetBrains Mono", monospace;
-    font-size: 0.5em; }
+
   
   .header__area span {
       font-size: 0.7em;
@@ -68,17 +64,27 @@ scroll-behavior: smooth; }
     .background{
       display: flex; 
       width: 100%;
-      height: 100%;
+      height: 70%;
      justify-content: center;
      position: absolute;
     }
     .background img{
-      width: 70%;
+      width: 80%;
       max-width: 100%;
-      height: 100%;
+      height: 70%;
       
     }
-  
+    .carousel-inner {
+        height: 55rem;
+        
+    }
+  @media (max-width:490px) {
+    .background img{
+      width: 100%;
+      height: 80%;
+      margin-top: 9.5rem;
+    }
+  }
   /*HEADER*/
   header {
     width: 100%;
@@ -111,9 +117,8 @@ scroll-behavior: smooth; }
     margin-bottom: 230px; }
 
     header a:hover{
-        text-decoration: none;
-      }
-  
+      text-decoration: none;
+    }
 P{
     font-size: 1.0rem;
     font-family: "jetBrains Mono", monospace;
@@ -122,7 +127,7 @@ P{
     width: 100%;
     transition: width .3s; 
 }
-          
+    
   /*BOTON HAMBURGUESA*/
   .menu__lineas {
     position: fixed;
@@ -226,15 +231,13 @@ P{
  }
  .title {
      display: flex;
-     font-family: "jetBrains Mono", monospace;
      width: 100%;
      height: auto;
      justify-content: center;
      align-items: center;
      flex-direction: column;
-     font-weight: bolder;
      background: black;
-     color: rgb(255, 255, 255);
+     color: white;
  }
 .title h2{
     justify-content: center;
@@ -253,8 +256,7 @@ P{
    margin-top: 15rem;
 
     
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
+    color: white;
     
 }
 .subtitle p{
@@ -267,170 +269,153 @@ P{
 
 /* -------GRID-----------*/
  /* Main */ 
- main{
-    height: auto;
-}
-.grid{
+    .grid{
 
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   width: 100%;
-
-    margin-right: auto;
-   margin-left: auto;
-   flex-wrap: wrap;
-   
-   
-  }
-.ropa {
-   width: 250px;
-   justify-content: center;
-   background-color:rgb(0, 0, 0);
-   height: auto;
-  margin: 10px;
-   box-shadow:  2.8px 2.2px rgb(0 0 0 / 4%), 0 6.7px 5.3px rgb(0 0 0 / 6%),
-    -20px -2px 10px rgb(0 0 0 / 7%), 0 22.3px 17.9px rgb(0 0 0 / 8%),
-     0 41.8px 33.4px rgb(0 0 0 / 10%),
-      0 100px 80px rgb(0 0 0 / 12%);
-    padding-top: 9px;
-      
-}
-.ropa:hover{
-border-style: solid;
-border-color: wheat;
-border-width: 2.2px;
-
-
-}
-.ropa p{
-    font-family: "jetBrains Mono", monospace;
-}
-
-
-.ropa img{
-  
-   padding: 0%;
-   vertical-align: middle;
-   border-style: none;
-   justify-content: center;
-   width: 100%;
-   min-height: 200px;
-   max-width: 300px;
-   max-height: 225px;
-}
-
-.ropa h3{
-   display: flex;
-   flex-direction: row;
-   color: black;
-}
-.text{
-   display: flex;
-   justify-content: center;
-   width: 100%;
-
-}
-.text h3{ 
-   padding: 1rem;
-   font-family: "jetBrains Mono", monospace;
-   font-weight: bolder;
-   font-size: 1.5rem;
-   color:white;
-   
-   justify-content: center;
-   text-align: center;
-   
-  
-}
-.anteojos {
-    margin-top: 0;
-    width: 100%;
-    display: block;
-    justify-content: center;
-    text-align: center;
-}
-.anteojos h2{
-    justify-content: center;
-    margin: 0 auto;
-    text-align: center;
-}
-.text p{
-   display: block;
-
-   margin-block-start: 1em;
-   margin-block-end: 1em;
-   margin-inline-start: 0px;
-   margin-inline-end: 0px;
-  justify-content:  center;
-  width: 100%;
-  font-family: "jetBrains Mono", monospace;
-  color: lime;   
-  font-weight: bold;
-
-  justify-content: center;
-  text-align: center; 
-
-}
-.text1 {
-  display: block;
-
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
- justify-content:  center;
- width: 100%;
- font-family: "jetBrains Mono", monospace;
- color: white;   
- font-weight: bold;
- justify-content: center;
- text-align: center; 
-
-}
-.shop__button{
-   padding: 2rem;
-   background-color: black;
-   font-size: 1.4rem;
-   width: 100%;
-   margin: 0%;
-   display: block;
-   margin-block-start: 0.4em;
-   margin-block-end: 1em;
-   margin-inline-start:-10px;
-   margin-inline-end: 0px;
-   text-align: center;
-   justify-content: center;
-   font-weight: bold;
-   color: violet;
-   font-family: var(--fuente_primaria);
-}
-.shop__button:hover{
-   background-color: white;
-   color:black;
-   font-weight: bold;
-   padding: 1.5rem;
-   font-family: "jetBrains Mono", monospace;
-}
-main h2{
-    display: flex;
-    justify-content: center;
-    font-family: "jetBrains Mono", monospace;
-   
-    padding: 5rem;
-    font-size: 3rem;
-    color: lime;
-    margin-top: 0;
-    
-    background: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 20rem;
+         margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
     }
-    .ropa a{
+.grid__curso{
+    margin-top: 5rem    ;
+    width: 25rem;
+    height: auto;
+     background-color: rgba(0, 0, 0, 0.551);
+    margin: 2rem 2rem;
+    display: block;
+    list-style: none;
+
+}
+.grid__curso img{
+    width: 25rem;
+    height: 20rem;
+    opacity: 10%;
+
+}
+.grid__curso img:hover{
+    opacity: 100%;
+    background:none;
+}
+.grid__curso p{
+    color: white;
+}
+.grid__curso h3{
+    margin-top: 1rem;
+    font-weight: bolder;
+}
+.grid__curso li, .grid__curso a{
     list-style: none;
     text-decoration: none;
-    
-    }
+}
 
+
+.button{
+        padding: 2rem;
+        background-color: black;
+        font-size: 1.4rem;
+        width: 100%;
+        margin: 0%;
+        display: block;
+        margin-block-start: 0.4em;
+        margin-block-end: 1em;
+        margin-inline-start:-10px;
+        margin-inline-end: 0px;
+        text-align: center;
+        justify-content: center;
+        font-weight: bold;
+        font-family: var(--fuente_primaria);
+}
+.button:hover{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    font-weight: bold;
+    padding: 1.5rem;
+    font-family: "jetBrains Mono", monospace;
+}
+.button p:hover{
+    color: black;
+    font-weight: bolder;
+    
+}
+.button p{
+    width: 100%;
+    color: violet;
+}
+
+.text__title-p5{
+    border-radius: 100%;
+}
+
+.grid__curso-henry h3{
+    color: black;
+    background: yellow;
+}
+.grid__curso-P5 h3{
+    color: red;
+}
+.grid__curso-coder h3{
+    background: yellow;
+    color: black;
+    font-weight: bolder;
+}
+.grid__curso{
+    text-align: center;
+    font-family: "jetBrains Mono", monospace;
+}
+
+.grid__curso-digital h3{
+    background: white;
+}
+.text__h3-red {
+    color: red  ;
+    
+}
+.text__h3-black {
+    color: black;
+
+}
+ .text__title{
+    color: red;
+    font-family: "jetBrains Mono", monospace;
+    font-weight: bolder ;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;   
+    gap: 1rem;
+}
+.text__title-le{
+    color: white;
+    margin-top: 1rem;
+}
+.text__title-p { 
+
+    font-family: "jetBrains Mono", monospace;
+    font-weight: bolder ;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;   
+    gap: 1rem;
+}
+.text__title-5{
+    background: red;
+    border-radius: 100%;
+    color: black ;
+    padding: 0.25, 0.30;
+    margin-top: -0,5rem;
+}
+.text__title-p5{
+    color:white;
+}
 /* Animation */
     .line-1{
         position: relative;
@@ -479,7 +464,7 @@ main h2{
     flex-wrap: wrap;
     margin: 1rem;
     margin-top: 0rem;
-    
+    color: lightblue;
     background-color: transparent;
 }
 .center-con p{
@@ -496,7 +481,6 @@ main h2{
 }
 .center-con p:hover{
     color: wheat;
-
 }
 
 .round:hover{
@@ -521,10 +505,9 @@ main h2{
 .round a{
   text-decoration: none;
   color: wheat;
-  
 }
 .round p:hover{
-    color: whitesmoke;
+    color: wheat;
 }
 span:hover{
     z-index: 999;
@@ -671,6 +654,19 @@ ul.social-network li {
 .socialHoverClass {
   color: #44BCDD;
 }
+.social-network a.iconInstagram:hover:hover {
+  background-color: tomato;
+}
+.social-network a.iconWhatsapp:hover:hover {
+  background-color: green;
+
+}
+.fa-whatsapp:hover{
+color: white;
+}
+.fa-instagram:hover{
+  color: white;
+    }
 
 .col-md-3 a{
   text-decoration: none;
@@ -688,19 +684,8 @@ ul.social-network li {
   height: 30px;
   font-size: 15px;
 }
-.social-network a.iconInstagram:hover:hover {
-  background-color: tomato;
-}
-.social-network a.iconWhatsapp:hover:hover {
-  background-color: green;
 
-}
-.fa-whatsapp:hover{
-color: white;
-}
-.fa-instagram:hover{
-  color: white;
-    }
+
 .social-circle li i {
   margin: 0;
   line-height: 30px;
