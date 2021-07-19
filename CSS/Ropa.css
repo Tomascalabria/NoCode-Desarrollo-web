@@ -78,6 +78,12 @@ scroll-behavior: smooth; }
       height: 100%;
       
     }
+    @media (max-width:480px) {
+      .background img{
+        width: 77%;
+        height: 53%;
+      }
+    }
   
   /*HEADER*/
   header {
