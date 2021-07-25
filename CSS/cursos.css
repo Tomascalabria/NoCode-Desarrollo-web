@@ -739,4 +739,8 @@ color: white;
             }
             } 
     
-    
+            @media (min-width: 1024px ) { 
+            .grid__curso.grid__curso-plataforma {
+              margin-bottom: -6.9rem;
+          }
+        }
