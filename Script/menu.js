@@ -34,9 +34,4 @@
             
             }
         
-            document.getElementById('contact__menu').click = function () {
-              hideMenu();
-           
-           }
-       
-        
+         
