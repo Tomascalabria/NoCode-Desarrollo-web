@@ -7,13 +7,18 @@
         let header2 = document.querySelector('#header2');
         let animate = document.querySelector('#animate');
 
+       
+    
+
         menu.addEventListener('click', function (){
             items.classList.toggle('visible');
             linea1.classList.toggle('menu__lineas__linea1B');
             linea2.classList.toggle('menu__lineas__linea2B');
             linea3.classList.toggle('menu__lineas__linea3B');
             header2.classList.toggle('header__2');
-            animate.classList.toggle('h2__oculto')
+            animate.classList.toggle('h2__oculto');
+          
+            
         })
 
       
@@ -22,3 +27,11 @@
         function hideMenu() {
             document.getElementById('whitedropdown-menu').style.display = 'none';
           }
+
+        
+            document.getElementById('contact__menu').click = function () {
+               hideMenu();
+            
+            }
+        
+         

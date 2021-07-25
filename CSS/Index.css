@@ -124,7 +124,7 @@ P {
   height: auto;
   min-height: 100vh;
   position: fixed;
-  background-color: #070707;
+  background-color: rgb(2, 39, 2);
   z-index: 99; }
   .menu__items ul {
     width: 100%;
