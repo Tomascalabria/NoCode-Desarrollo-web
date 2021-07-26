@@ -92,7 +92,7 @@
                             <p>PRECIO $40.000</p>
                         </li>
                         <li class="shop__button">
-                            <p> AGREGAR AL CARRITO </p>
+                            <p id="shop"onclick="myFunction()"> AGREGAR AL CARRITO </p>
                         </li>
                     </ul>
 
@@ -110,7 +110,7 @@
                             <p>PRECIO $40.000</p>
                         </li>
                         <li class="shop__button">
-                            <p> AGREGAR AL CARRITO </p>
+                            <p id="shop"onclick="myFunction()"> AGREGAR AL CARRITO </p>
                         </li>
                     </ul>
 
@@ -128,7 +128,7 @@
                             <p>PRECIO $40.000</p>
                         </li>
                         <li class="shop__button">
-                            <p> AGREGAR AL CARRITO</p>
+                            <p id="shop"onclick="myFunction()"> AGREGAR AL CARRITO</p>
                         </li>
                     </ul>
 
@@ -146,7 +146,7 @@
                             <p>PRECIO $40.000</p>
                         </li>
                         <li class="shop__button">
-                            <p> AGREGAR AL CARRITO </p>
+                            <p id="shop"onclick="myFunction()"> AGREGAR AL CARRITO </p>
                         </li>
                     </ul>
 
@@ -164,7 +164,7 @@
                             <p>PRECIO $40.000</p>
                         </li>
                         <li class="shop__button">
-                            <p> AGREGAR AL CARRITO </p>
+                            <p id="shop"onclick="myFunction()"> AGREGAR AL CARRITO </p>
                         </li>
                     </ul>
 
@@ -182,7 +182,7 @@
                             <p>PRECIO $40.000</p>
                         </li>
                         <li class="shop__button">
-                            <p> AGREGAR AL CARRITO </p>
+                            <p id="shop"onclick="myFunction()"> AGREGAR AL CARRITO </p>
                         </li>
                     </ul>
 
@@ -200,7 +200,7 @@
                             <p>PRECIO $40.000</p>
                         </li>
                         <li class="shop__button">
-                            <p> AGREGAR AL CARRITO</p>
+                            <p id="shop" onclick="myFunction()">  AGREGAR AL CARRITO</p>
                         </li>
                     </ul>
 
@@ -218,7 +218,7 @@
                             <p>PRECIO $40.000</p>
                         </li>
                         <li class="shop__button">
-                            <p> AGREGAR AL CARRITO</p>
+                            <p id="shop" onclick="myFunction()"> AGREGAR AL CARRITO</p>
                         </li>
                     </ul>
 
@@ -326,7 +326,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
         crossorigin="anonymous"></script>
-
+<script>
+function myFunction() {
+  document.getElementById("shop").innerHTML = alert(' Felicitaciones!! Tu producto ha sido seleccionado');
+}
+</script>
 </body>
 
 </html>

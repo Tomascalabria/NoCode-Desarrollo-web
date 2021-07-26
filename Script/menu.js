@@ -33,5 +33,13 @@
                hideMenu();
             
             }
-        
-         
+
+            function shopalert() {
+              alert('Tu producto ha sido seleccionado!');
+            }  document.getElementById("shop").click = function (){
+            }
+          
+            
+       
+          
+            
