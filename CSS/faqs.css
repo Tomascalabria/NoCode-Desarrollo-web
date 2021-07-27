@@ -368,6 +368,7 @@ color: white;
   
   .accordion-link div{
     display: flex;
+    text-decoration: none;
   }
   
   .accordion-link .ion-md-arrow-down{
@@ -381,7 +382,9 @@ color: white;
     background-color: #000;
     transition: max-height 650ms;
   }
-  
+  .accordion-item a{ 
+    text-decoration: none;
+  }
   
   
   .answer p{
