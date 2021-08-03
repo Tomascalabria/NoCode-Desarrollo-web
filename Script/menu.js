@@ -25,7 +25,7 @@
     
     
         function hideMenu() {
-            document.getElementById('whitedropdown-menu').style.display = 'none';
+            document.getElementById('whitedropdown-menu').click.style.display = 'none';
           }
 
         
