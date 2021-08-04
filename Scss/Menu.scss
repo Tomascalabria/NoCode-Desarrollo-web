@@ -1,4 +1,10 @@
-     
+@mixin font ($family,$fontcolor, $fontsize) {
+  font-family:$family;
+      color: $fontcolor;
+      font-size: $fontsize;
+    } 
+
+  
   /*BOTON HAMBURGUESA*/
  .menu__lineas {
     position: fixed;
@@ -63,11 +69,9 @@
               flex-grow: 1;
               list-style: none;
             a {
+              @include font ("JetBrains Mono" monospace, white, 2em);
               text-decoration: none;
-              font-size: 2em;
               cursor: pointer;
-              color: white;
-              font-family: "JetBrains Mono", monospace;
               font-weight: 400;
               z-index: 201; 
                 &:hover{
@@ -129,13 +133,11 @@
         
     }
     .container-fluid__title h2{
-        font-size: 2rem;
-        color: lime;
+      @include font ("JetBrains Mono" monospace, lime, 2em);
         background-color: transparent;
         justify-content: center;
         text-align: center;
         font-weight: bold;
-        font-family: "jetBrains Mono", monospace;
         margin-top: 25rem;
         width: 100%;
     }

@@ -3,3 +3,8 @@
     height: $height;
     width: $width;
   } 
+  @mixin font ($fontsize,$fontcolor, $fontsize) {
+font-family:$fontcolor;
+    color: $fontcolor;
+    size: $fontsize;
+  } 

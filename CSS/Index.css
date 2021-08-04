@@ -6,7 +6,7 @@
 
 html {
   font-size: 12px;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "JetBrains Mono" monospace;
   color: white; }
 
 section {
@@ -147,11 +147,11 @@ P {
       flex-grow: 1;
       list-style: none; }
       .menu__items ul li a {
-        text-decoration: none;
-        font-size: 2em;
-        cursor: pointer;
+        font-family: "JetBrains Mono" monospace;
         color: white;
-        font-family: "JetBrains Mono", monospace;
+        font-size: 2em;
+        text-decoration: none;
+        cursor: pointer;
         font-weight: 400;
         z-index: 201; }
         .menu__items ul li a:hover {
@@ -195,28 +195,28 @@ P {
   height: 20rem; }
 
 .container-fluid__title h2 {
-  font-size: 2rem;
+  font-family: "JetBrains Mono" monospace;
   color: lime;
+  font-size: 2em;
   background-color: transparent;
   justify-content: center;
   text-align: center;
   font-weight: bold;
-  font-family: "jetBrains Mono", monospace;
   margin-top: 25rem;
   width: 100%; }
 
 footer {
+  family: "jetBrains Mono" monospace;
+  color: white;
   background: #16222A;
   background: black;
-  color: white;
-  margin: top -1rem;
-  color: white;
-  font-family: "jetBrains Mono", monospace; }
+  margin: top -1rem; }
 
 footer a {
-  color: #fff;
-  font-size: 14px;
-  transition-duration: 0.2s; }
+  family: "JetBrains Mono" monospace;
+  color: white;
+  transition-duration: 0.2s;
+  font-size: 14px; }
 
 footer a:hover {
   color: lime;

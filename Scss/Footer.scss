@@ -1,17 +1,19 @@
+@mixin font ($family,$fontcolor) {
+      family:$family;
+      color: $fontcolor;
+    } 
 
 footer {
+  @include font ("jetBrains Mono" monospace, white);
     background: #16222A;
   background: black;
-    color: white;
     margin: top -1rem;;
-    color: white;
-    font-family: "jetBrains Mono", monospace;
   }
   
   footer a {
-    color: #fff;
-    font-size: 14px;
+    @include font ("JetBrains Mono" monospace, white);
     transition-duration: 0.2s;
+    font-size: 14px;
   }
   
   footer a:hover {
