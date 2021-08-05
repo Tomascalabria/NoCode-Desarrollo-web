@@ -173,9 +173,11 @@ span{
     
 
 }
+
 .subtitle2__span{
 color: violet;
 font-weight: bolder;
+cursor:pointer;
 }
 .subtitle2, .subtitle2 a{
     animation: color 3s steps(25) 1s 1 normal forwards,
